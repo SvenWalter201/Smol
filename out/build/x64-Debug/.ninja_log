@@ -1,0 +1,10 @@
+# ninja log v5
+13	53	7176133162373634	Exercises/CMakeFiles/Exercises.dir/Player/Player.cpp.obj	b7ebede000c9273a
+1207	1425	7176349112769664	Exercises/Exercises.exe	156378bd331a1b4
+10	196	7176133163794923	Exercises/CMakeFiles/Exercises.dir/Level/Cell.cpp.obj	bea03a1074164a3c
+1	1207	7176349110938001	Exercises/CMakeFiles/Exercises.dir/Main.cpp.obj	53199707060937e
+17	326	7176133165086098	Exercises/CMakeFiles/Exercises.dir/Utility/Log.cpp.obj	7a708b6abcfad2e8
+1	330	7176135382281153	Exercises/CMakeFiles/Exercises.dir/FileManagement/FileManager.cpp.obj	21624d4ffbf39240
+4	183	7176299929499487	Exercises/CMakeFiles/Exercises.dir/Game.cpp.obj	740085d62f12980f
+5	587	7176314543266517	Exercises/CMakeFiles/Exercises.dir/Level/Level.cpp.obj	537fe4905e5d8b2b
+4	175	7176317817807362	Exercises/CMakeFiles/Exercises.dir/Input/Input.cpp.obj	f1449731e1702eaa

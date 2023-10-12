@@ -1,0 +1,540 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Exercises",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exercises",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Libraries/glfw-3.3.8",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Libraries/glfw-3.3.8",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "Libraries/glfw-3.3.8/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Libraries/glfw-3.3.8/src",
+					"targetIndexes" : 
+					[
+						11,
+						33
+					]
+				},
+				{
+					"build" : "Libraries/glfw-3.3.8/examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Libraries/glfw-3.3.8/examples",
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						13,
+						20,
+						22,
+						24,
+						25,
+						26,
+						35
+					]
+				},
+				{
+					"build" : "Libraries/glfw-3.3.8/tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Libraries/glfw-3.3.8/tests",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						12,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21,
+						23,
+						27,
+						28,
+						29,
+						30,
+						31,
+						36
+					]
+				},
+				{
+					"build" : "Libraries/glew-2.1.0/build/cmake",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Libraries/glew-2.1.0/build/cmake",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						34
+					]
+				},
+				{
+					"build" : "Libraries/glm",
+					"childIndexes" : 
+					[
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Libraries/glm"
+				},
+				{
+					"build" : "Libraries/glm/glm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "Libraries/glm/glm"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Exercises",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						35,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Exercises::@cefd7a054c5858ffb025",
+					"jsonFile" : "target-Exercises-Debug-98d650a35eaa5486605f.json",
+					"name" : "Exercises",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "boing::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-boing-Debug-ffda5891f62ef837c2bf.json",
+					"name" : "boing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "clipboard::@6f8290e4272766c86eef",
+					"jsonFile" : "target-clipboard-Debug-67eb074534b04219c19b.json",
+					"name" : "clipboard",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "cursor::@6f8290e4272766c86eef",
+					"jsonFile" : "target-cursor-Debug-5ce7e848300d90af665f.json",
+					"name" : "cursor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "empty::@6f8290e4272766c86eef",
+					"jsonFile" : "target-empty-Debug-34a786d45e8469645020.json",
+					"name" : "empty",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "events::@6f8290e4272766c86eef",
+					"jsonFile" : "target-events-Debug-7c227a6007099e92788c.json",
+					"name" : "events",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gamma::@6f8290e4272766c86eef",
+					"jsonFile" : "target-gamma-Debug-e96da9935223d32806a8.json",
+					"name" : "gamma",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gears::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-gears-Debug-4dfa147729aff44dd587.json",
+					"name" : "gears",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glew::@6f0fdefc24ac34f2d5c0",
+					"jsonFile" : "target-glew-Debug-651e5879fd9c84ccf7fb.json",
+					"name" : "glew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glew_s::@6f0fdefc24ac34f2d5c0",
+					"jsonFile" : "target-glew_s-Debug-c9f6a7ea67027eff6e43.json",
+					"name" : "glew_s",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glewinfo::@6f0fdefc24ac34f2d5c0",
+					"jsonFile" : "target-glewinfo-Debug-7bbb5a0e06cfd026c3fb.json",
+					"name" : "glewinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@0f03e03e196a9ec7c9a6",
+					"jsonFile" : "target-glfw-Debug-62218864718675cc81a1.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfwinfo::@6f8290e4272766c86eef",
+					"jsonFile" : "target-glfwinfo-Debug-d00cd2cfe02f2ff2d0d5.json",
+					"name" : "glfwinfo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "heightmap::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-heightmap-Debug-e1c8bb426648c51c3149.json",
+					"name" : "heightmap",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "icon::@6f8290e4272766c86eef",
+					"jsonFile" : "target-icon-Debug-cb5d27700be05ebea946.json",
+					"name" : "icon",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "iconify::@6f8290e4272766c86eef",
+					"jsonFile" : "target-iconify-Debug-4dc9f79a3e97dd6727b5.json",
+					"name" : "iconify",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "inputlag::@6f8290e4272766c86eef",
+					"jsonFile" : "target-inputlag-Debug-796c410413f50c9cad7a.json",
+					"name" : "inputlag",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "joysticks::@6f8290e4272766c86eef",
+					"jsonFile" : "target-joysticks-Debug-18478acfee7acca9ba99.json",
+					"name" : "joysticks",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "monitors::@6f8290e4272766c86eef",
+					"jsonFile" : "target-monitors-Debug-19da2fb5bc82858e3f66.json",
+					"name" : "monitors",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "msaa::@6f8290e4272766c86eef",
+					"jsonFile" : "target-msaa-Debug-31e261c2fb6d12aac07c.json",
+					"name" : "msaa",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "offscreen::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-offscreen-Debug-460d5fd4080ba089d8e2.json",
+					"name" : "offscreen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "opacity::@6f8290e4272766c86eef",
+					"jsonFile" : "target-opacity-Debug-b119d8cf433902dbf9b4.json",
+					"name" : "opacity",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "particles::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-particles-Debug-18f4f1a986b4c409de78.json",
+					"name" : "particles",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "reopen::@6f8290e4272766c86eef",
+					"jsonFile" : "target-reopen-Debug-7973377aa9f3ee69b8e1.json",
+					"name" : "reopen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sharing::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-sharing-Debug-7caa8a559cbc590775a1.json",
+					"name" : "sharing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "simple::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-simple-Debug-d81279c229f86bb167e2.json",
+					"name" : "simple",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "splitview::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-splitview-Debug-2036b9fdcd92acddeb00.json",
+					"name" : "splitview",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tearing::@6f8290e4272766c86eef",
+					"jsonFile" : "target-tearing-Debug-67215789879b752e16f7.json",
+					"name" : "tearing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "threads::@6f8290e4272766c86eef",
+					"jsonFile" : "target-threads-Debug-bda8ee730e2e68ffd3d0.json",
+					"name" : "threads",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "timeout::@6f8290e4272766c86eef",
+					"jsonFile" : "target-timeout-Debug-ff518c97fe0beaee0e74.json",
+					"name" : "timeout",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "title::@6f8290e4272766c86eef",
+					"jsonFile" : "target-title-Debug-90acaabe21fc0fd5c7c0.json",
+					"name" : "title",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "triangle-vulkan::@6f8290e4272766c86eef",
+					"jsonFile" : "target-triangle-vulkan-Debug-aaa72c875ab8a604a902.json",
+					"name" : "triangle-vulkan",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@a5efbfb508e35856825e",
+					"jsonFile" : "target-uninstall-Debug-39628c9adf55ede53925.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@0f03e03e196a9ec7c9a6",
+					"jsonFile" : "target-update_mappings-Debug-7665d25f23fa8d0b4234.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "visualinfo::@6f0fdefc24ac34f2d5c0",
+					"jsonFile" : "target-visualinfo-Debug-5dc8be9842218b7fbeb4.json",
+					"name" : "visualinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "wave::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-wave-Debug-337a2f0ada38b92add19.json",
+					"name" : "wave",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "windows::@6f8290e4272766c86eef",
+					"jsonFile" : "target-windows-Debug-e7d8640de5786d4d3a34.json",
+					"name" : "windows",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Dev/AdvancedProgrammingC++/Exercises/out/build/x64-Debug",
+		"source" : "C:/Dev/AdvancedProgrammingC++/Exercises"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

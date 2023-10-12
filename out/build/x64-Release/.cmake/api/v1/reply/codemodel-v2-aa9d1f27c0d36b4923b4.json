@@ -1,0 +1,540 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Exercises",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exercises",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Libraries/glfw-3.3.8",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Libraries/glfw-3.3.8",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "Libraries/glfw-3.3.8/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Libraries/glfw-3.3.8/src",
+					"targetIndexes" : 
+					[
+						11,
+						33
+					]
+				},
+				{
+					"build" : "Libraries/glfw-3.3.8/examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Libraries/glfw-3.3.8/examples",
+					"targetIndexes" : 
+					[
+						1,
+						7,
+						13,
+						20,
+						22,
+						24,
+						25,
+						26,
+						35
+					]
+				},
+				{
+					"build" : "Libraries/glfw-3.3.8/tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Libraries/glfw-3.3.8/tests",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						12,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21,
+						23,
+						27,
+						28,
+						29,
+						30,
+						31,
+						36
+					]
+				},
+				{
+					"build" : "Libraries/glew-2.1.0/build/cmake",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Libraries/glew-2.1.0/build/cmake",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						34
+					]
+				},
+				{
+					"build" : "Libraries/glm",
+					"childIndexes" : 
+					[
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Libraries/glm"
+				},
+				{
+					"build" : "Libraries/glm/glm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "Libraries/glm/glm"
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Exercises",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						35,
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "glm",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Exercises::@cefd7a054c5858ffb025",
+					"jsonFile" : "target-Exercises-RelWithDebInfo-340cdce1b6ba4daffda7.json",
+					"name" : "Exercises",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "boing::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-boing-RelWithDebInfo-360317bb3ed805bd40a4.json",
+					"name" : "boing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "clipboard::@6f8290e4272766c86eef",
+					"jsonFile" : "target-clipboard-RelWithDebInfo-afc81aeccc3ff186c1db.json",
+					"name" : "clipboard",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "cursor::@6f8290e4272766c86eef",
+					"jsonFile" : "target-cursor-RelWithDebInfo-8d2446e7be6f099ef551.json",
+					"name" : "cursor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "empty::@6f8290e4272766c86eef",
+					"jsonFile" : "target-empty-RelWithDebInfo-39ff09b06796dd0bceb8.json",
+					"name" : "empty",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "events::@6f8290e4272766c86eef",
+					"jsonFile" : "target-events-RelWithDebInfo-ea6c85c374ec571b454a.json",
+					"name" : "events",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gamma::@6f8290e4272766c86eef",
+					"jsonFile" : "target-gamma-RelWithDebInfo-05a8288b9faef7fe05c4.json",
+					"name" : "gamma",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gears::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-gears-RelWithDebInfo-15a2b890d729476f3ba0.json",
+					"name" : "gears",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glew::@6f0fdefc24ac34f2d5c0",
+					"jsonFile" : "target-glew-RelWithDebInfo-0bd60a2d2626c0d70319.json",
+					"name" : "glew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glew_s::@6f0fdefc24ac34f2d5c0",
+					"jsonFile" : "target-glew_s-RelWithDebInfo-e692e16dcd658227ac62.json",
+					"name" : "glew_s",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glewinfo::@6f0fdefc24ac34f2d5c0",
+					"jsonFile" : "target-glewinfo-RelWithDebInfo-fe2c726b24f33edc668a.json",
+					"name" : "glewinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@0f03e03e196a9ec7c9a6",
+					"jsonFile" : "target-glfw-RelWithDebInfo-3dabfcacd25caa1e2f1d.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfwinfo::@6f8290e4272766c86eef",
+					"jsonFile" : "target-glfwinfo-RelWithDebInfo-7a5f840c88de2fa2ae3b.json",
+					"name" : "glfwinfo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "heightmap::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-heightmap-RelWithDebInfo-0d516a9fe87bee064212.json",
+					"name" : "heightmap",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "icon::@6f8290e4272766c86eef",
+					"jsonFile" : "target-icon-RelWithDebInfo-6979d919309920b465e5.json",
+					"name" : "icon",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "iconify::@6f8290e4272766c86eef",
+					"jsonFile" : "target-iconify-RelWithDebInfo-7ed4282067f6003cb9d4.json",
+					"name" : "iconify",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "inputlag::@6f8290e4272766c86eef",
+					"jsonFile" : "target-inputlag-RelWithDebInfo-229d29695d93ed435e29.json",
+					"name" : "inputlag",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "joysticks::@6f8290e4272766c86eef",
+					"jsonFile" : "target-joysticks-RelWithDebInfo-d0c3529eab1b9d87119c.json",
+					"name" : "joysticks",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "monitors::@6f8290e4272766c86eef",
+					"jsonFile" : "target-monitors-RelWithDebInfo-6558bf0a8bc4c94f8fd6.json",
+					"name" : "monitors",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "msaa::@6f8290e4272766c86eef",
+					"jsonFile" : "target-msaa-RelWithDebInfo-363353f6610d79ae9a46.json",
+					"name" : "msaa",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "offscreen::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-offscreen-RelWithDebInfo-f88a8a7353836621dd98.json",
+					"name" : "offscreen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "opacity::@6f8290e4272766c86eef",
+					"jsonFile" : "target-opacity-RelWithDebInfo-23da5bfa3b2dc519b9ba.json",
+					"name" : "opacity",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "particles::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-particles-RelWithDebInfo-8040eb84b1b9fdfb40e7.json",
+					"name" : "particles",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "reopen::@6f8290e4272766c86eef",
+					"jsonFile" : "target-reopen-RelWithDebInfo-3c129eafb41728031c52.json",
+					"name" : "reopen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sharing::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-sharing-RelWithDebInfo-a62be1b70323fffb7c20.json",
+					"name" : "sharing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "simple::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-simple-RelWithDebInfo-bd1e2d4b350e6ad536c6.json",
+					"name" : "simple",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "splitview::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-splitview-RelWithDebInfo-624fa75e42cc6ca957de.json",
+					"name" : "splitview",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tearing::@6f8290e4272766c86eef",
+					"jsonFile" : "target-tearing-RelWithDebInfo-610e58839955a1814f87.json",
+					"name" : "tearing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "threads::@6f8290e4272766c86eef",
+					"jsonFile" : "target-threads-RelWithDebInfo-67c5e1fedddbff211a38.json",
+					"name" : "threads",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "timeout::@6f8290e4272766c86eef",
+					"jsonFile" : "target-timeout-RelWithDebInfo-e06197ecf7abf7f4425e.json",
+					"name" : "timeout",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "title::@6f8290e4272766c86eef",
+					"jsonFile" : "target-title-RelWithDebInfo-3ab9e8cc1f1a8f3814b2.json",
+					"name" : "title",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "triangle-vulkan::@6f8290e4272766c86eef",
+					"jsonFile" : "target-triangle-vulkan-RelWithDebInfo-baadda29803a738407a6.json",
+					"name" : "triangle-vulkan",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@a5efbfb508e35856825e",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-26062b05cb5e2c962190.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@0f03e03e196a9ec7c9a6",
+					"jsonFile" : "target-update_mappings-RelWithDebInfo-eeb272ec95374f2ddf7a.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "visualinfo::@6f0fdefc24ac34f2d5c0",
+					"jsonFile" : "target-visualinfo-RelWithDebInfo-2bf730664a2a4a344285.json",
+					"name" : "visualinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "wave::@b5c3ef1f1bba366d1109",
+					"jsonFile" : "target-wave-RelWithDebInfo-1418e561a75074da9598.json",
+					"name" : "wave",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "windows::@6f8290e4272766c86eef",
+					"jsonFile" : "target-windows-RelWithDebInfo-5ab15f8e961d39cb150f.json",
+					"name" : "windows",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Dev/AdvancedProgrammingC++/Exercises/out/build/x64-Release",
+		"source" : "C:/Dev/AdvancedProgrammingC++/Exercises"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
